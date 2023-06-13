@@ -3,10 +3,13 @@ import faBars from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
   return (
-    <div className="d-flex">
-      <div className="bg-danger">Navbar</div>
-      <div className="bg-success">asd</div>
-    </div>
+    <>
+      <div className="card p-3 shadow rounded-1">
+        <button type="submit" className="btn btn-primary text-light d-block">
+          Click Me
+        </button>
+      </div>
+    </>
   );
 };
 
