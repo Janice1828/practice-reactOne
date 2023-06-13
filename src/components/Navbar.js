@@ -1,6 +1,5 @@
 import React from "react";
 import faBars from "@fortawesome/react-fontawesome";
-import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 const Navbar = () => {
   return (
