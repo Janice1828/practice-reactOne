@@ -1,7 +1,11 @@
 import React from "react";
-
+import Navbar from "./components/Navbar";
 const App = () => {
-  return <div>lorem10 </div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
