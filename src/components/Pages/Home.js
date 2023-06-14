@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "./includes/Carousel";
-
+import Vmc from "./includes/Vmc";
 const Home = () => {
   return (
     <>
       <Carousel />
-      <div className="container d-flex flex-column align-items-center mt-4">
+      <div className="container d-flex flex-column align-items-center mt-4 py-4">
         <h2 className="companyTitle">Our Company</h2>
         <p className="border-para"></p>
 
@@ -21,6 +21,7 @@ const Home = () => {
           Read More
         </button>
       </div>
+      <Vmc />
     </>
   );
 };
