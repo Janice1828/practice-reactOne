@@ -18,7 +18,7 @@ const Vmc = () => {
   return (
     <div className="bg-dark bg-opacity-25 py-4">
       <div className="d-flex align-items-center justify-content-center flex-column">
-        <h1 className="companyTitle">Vision, Mission and Values</h1>
+        <h1 className="companyTitle">Vision, Mission and Value</h1>
         <p className="border-para"></p>
       </div>
       <div>
