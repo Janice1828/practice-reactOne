@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="bg-dark text-light d-flex align-items-center justify-content-around p-2 ">
+      <div className="bg-dark text-light d-flex align-items-center justify-content-around p-2 position-sticky top-0 ">
         <div>
           <h1>FROM JENISH</h1>
         </div>

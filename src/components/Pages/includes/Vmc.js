@@ -1,5 +1,5 @@
 import React from "react";
-import vmcData from "./VmcData";
+import VmcData from "./VmcData";
 const Vmc = () => {
   const Vmcdata = [
     {
@@ -22,13 +22,11 @@ const Vmc = () => {
         <p className="border-para"></p>
       </div>
       <div>
-        बकम
-        <div className="bg-danger">
+        <div className="d-flex justify-content-center gap-5 mt-4">
           {Vmcdata.map((val, ind) => {
-            return <vmcData key={ind} title={val.title} para={val.para} />;
+            return <VmcData cardId={ind} title={val.title} para={val.para} />;
           })}
         </div>
-        asd
       </div>
     </div>
   );

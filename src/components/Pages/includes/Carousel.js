@@ -1,5 +1,8 @@
 import React from "react";
-import CarouselImg from "./erorr.jpg";
+import CarouselImg from "./education.jpg";
+import CarouselImgSecond from "./desert.jpg";
+import CarouselImgThird from "./driveways2.jpg";
+
 const Carousel = () => {
   return (
     <>
@@ -15,7 +18,7 @@ const Carousel = () => {
           </div>
           <div class="carousel-item">
             <img
-              src={CarouselImg}
+              src={CarouselImgSecond}
               class="d-block w-100"
               alt="..."
               id="carouselImg"
@@ -23,7 +26,7 @@ const Carousel = () => {
           </div>
           <div class="carousel-item">
             <img
-              src={CarouselImg}
+              src={CarouselImgThird}
               class="d-block w-100"
               alt="..."
               id="carouselImg"

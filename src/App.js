@@ -6,6 +6,7 @@ import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
 import Error from "./components/Pages/Error";
 import Contact from "./components/Pages/Contact";
+import Footer from "./components/Pages/includes/Footer";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 };

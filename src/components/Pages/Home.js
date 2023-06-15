@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "./includes/Carousel";
 import Vmc from "./includes/Vmc";
+import Service from "./Service";
 const Home = () => {
   return (
     <>
@@ -17,11 +18,12 @@ const Home = () => {
           harum maxime odio id commodi deserunt incidunt harum maxime odio id
           commodi deserunt incidunt.
         </p>
-        <button type="" className="btn-warning btn py-2">
+        <button type="" className="btn-warning btn py-2 text-light">
           Read More
         </button>
       </div>
       <Vmc />
+      <Service />
     </>
   );
 };
